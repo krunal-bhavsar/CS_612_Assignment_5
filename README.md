@@ -1,6 +1,5 @@
 # RESTfulservice-using-docker-springboot
 This repository is on RESTful service using Docker and Spring Boot. For the front end I have used HTML, Jquery and Ajax to display data from Json.
-This repository has two folders one which has the HTML file in it and the other with Spring Boot API file.
 
 ## Files Included
 1. RestAPI folder which has the Spring Boot application and the Docker file.
@@ -13,12 +12,9 @@ We then create a Docker file and build and run it to create a Docker Container w
 Then we use a webpage (simple front end UI) to show the endpoints in action.
 
 ## Steps to follow
-1. Unzip the file.
-2. Go to root of that folder and then run that path in cmd 
-3. once the cmd opens, then in that we write the command to build and run Docker container
-4. First build the docker file by using command
+1. First build the docker file by using command
 ### `docker build -t anyname .` (It can be anyname after -t)
-3. Then run the docker file by using the command
+2. Then run the docker file by using the command
 ### `docker run -p 8081:8081 anyname` ( the name that you gave after -t)
 
 So with this the docker file is up and running
